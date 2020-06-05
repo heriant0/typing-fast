@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Faster</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+      
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="text-center" onload="start()">
+      <form class="form-game">
+        <h1><span class="badge">Typing Fast!</span></h1>
+        <hr />
+        
+          <div class="alert alert-primay" role="alert">
+            <span id="score">Press <b>Start</b> to play the simple game!</span>
+            <span id="times"></span>
+          </div>
+      
+        <h4><span id="wordList" class="random"></span></h4>
+        <hr />
+      
+        <input id="typing" type="text" onkeyup="startTyping()" class="txtboard" placeholder="Ketik dengan cepat">
+      
+        <br />
+          <span id="btnStart" class="play-button" onclick="playGame();countDown();">Start</span>
+
+        <p class="text-link">
+          &copy; <a href="https://heriant0.github.io">Herianto</a> - 2020<br />
+          <small>
+            <a href="https://github.com/heriant0" target="_blank">my-github</a> |
+            <a href="https://linkedin.com" target="_blank">my-LinkedIn</a>
+          </small>
+        </p>  
+      </form>
+
+    <script>
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
