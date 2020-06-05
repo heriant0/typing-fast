@@ -1,0 +1,2 @@
+# typing-fast
+simple game
